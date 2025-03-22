@@ -1,0 +1,32 @@
+.products-container {
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .product-item {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  
+  .product-item h3 {
+    margin: 0 0 10px;
+  }
+  
+  .product-item button {
+    background-color: #FFA41C;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-item button:hover {
+    background-color: #cc8400;
+  }
+  
