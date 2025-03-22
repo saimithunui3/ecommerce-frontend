@@ -10,7 +10,7 @@ const Signup = () => {
   const handleSignup = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:8080/api/auth/signup", {
+      const response = await axios.post("https://ecommerce-backend-2-zjl2.onrender.com/api/auth/signup", {
         username,
         password,
       });

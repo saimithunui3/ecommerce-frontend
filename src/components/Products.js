@@ -15,7 +15,7 @@ const Products = ({ addToCart }) => {
       }
 
       try {
-        const response = await axios.get("http://localhost:8080/api/products", {
+        const response = await axios.get("https://ecommerce-backend-2-zjl2.onrender.com/api/products", {
           headers: { Authorization: `Bearer ${token}` },
         });
         setProducts(response.data);

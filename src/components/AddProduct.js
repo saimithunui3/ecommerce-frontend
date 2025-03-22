@@ -14,7 +14,7 @@ const AddProduct = () => {
       return;
     }
 
-    axios.post("http://localhost:8080/api/products", product, {
+    axios.post("https://ecommerce-backend-2-zjl2.onrender.com/api/products", product, {
       headers: { Authorization: `Bearer ${token}` },
     }).then(() => {
       setMessage("✅ Product added successfully!");

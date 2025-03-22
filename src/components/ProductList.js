@@ -5,7 +5,7 @@ const ProductList = () => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        axios.get("http://localhost:8080/api/products")
+        axios.get("https://ecommerce-backend-2-zjl2.onrender.com/api/products")
             .then(response => setProducts(response.data))
             .catch(error => console.error("Error fetching data:", error));
     }, []);
